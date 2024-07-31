@@ -52,5 +52,6 @@ public class Program {
 		System.out.println("Delete completed");
 		
 		sc.close();
+		DB.closeConnection();
 	}
 }
